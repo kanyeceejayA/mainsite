@@ -39,13 +39,14 @@
 	color: #ddd;
 }
 .row img {
-	display: inline-flex;
+	/*display: inline-flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	width: 30%;
 	align-content: center;
-	margin: 20px;
+	margin: 20px;*/
+	width: 80%;
 }
 .column {
   float: left;
