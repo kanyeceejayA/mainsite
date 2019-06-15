@@ -85,3 +85,8 @@ footer p, .copyright  {
 	width: 20%;
 	margin: auto;
 }
+
+ /*Akbr Below here*/
+ .navbar-brand img{
+ 	height:60px;
+ }
