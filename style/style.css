@@ -47,6 +47,10 @@
 	align-content: center;
 	margin: 20px;*/
 	width: 40%;
+	display: inline-block;
+}
+.mx-auto{
+	text-align: center;
 }
 .column {
   float: left;
