@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htm lang="en">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<!-- font awesome -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<title>Caribbean Business Solutions</title>
 </head>
 <body>
+	<body>
 	<!--
 		<div class="container-fluid">
 			<div class="logo-head">
@@ -27,13 +27,13 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav float-left">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="About.html">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact Us</a>
+						<a class="nav-link" href="#">Contact Us</a>
 					</li>   
 					<li class="nav-item">
 						<a class="nav-link" href="gallery.html">Gallery</a>
@@ -42,57 +42,27 @@
 			</div>  
 		</nav>
 
-		<main class="container-companies">
-			<h6>Caribbean Business Solutions Group is a consortium based in Kenya managing diverse business interests in a wide range of sectors. The companies below are the companies under Our framework. Click to view their specified profiles.</h6><hr>
-			<div class="row mx-auto">
-		
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="connibyte.html"  data-toggle="hover"><img src="images/connibyte.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="eunichem-match.html"  data-toggle="hover"><img src="images/eunichem-match.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="centrixt.html"  data-toggle="hover"><img src="images/centrixt.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="lequipe.html"  data-toggle="hover"><img src="images/lequipe.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="nyika.html"  data-toggle="hover"><img src="images/nyika.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="redvelvet.html"  data-toggle="hover"><img src="images/redvelvet.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="topimage.html"  data-toggle="hover"><img src="images/topimage.png" class="img-fluid rounded float left"></a>
-				</div>
-				<div class="col-md-4 mx-auto col-sm-6">
-				 <a href="logistics.html"  data-toggle="hover"><img src="images/logistics.png" class="img-fluid rounded float left"></a>
-				</div>
 
-			</div>
-		</main>
-
-		 <!-- <footer>
-			<div class="logofooter"><img src="images/cbs2.png">
-			</div>
-			<nav class="menu">
-				<a href="#" class="fa fa-lg fa-facebook"></a>
-					<a href="#" class="fa fa-lg fa-twitter"></a>
-					<a href="#" class="fa fa-lg fa-linkedin"></a>
-			</nav>
-			<p>Riara Road,Off Dagoretti Garden, Next to Riara Springs Annexe 3
-			Nairobi, Kenya
-			P.O. Box 3397 - 00506, Nairobi, Kenya
-			+254 202 691 880 logistics@cbs-group.co.ke</p>
-		 </footer>
-			 <div class="copyright">
-								<p>Site by CBS group</p>
-			</div> -->
-
-	<!-- Footer1 -->
-	<section class="footer1 bg-dark" >
+   <form action="retrieve.php" method="post">
+   	<fieldset>
+   <label>Name</label><br>
+	<input type="text" name="name"><br>
+	<label>Your Email Address</label><br>
+	<input type="text" name="email"><br>
+	<label>Subject</label><br>
+	<input type="text" name="subject"><br>
+	<label>Message</label>
+	<textarea></textarea>
+	</fieldset>
+	<fieldset>
+		<h4>How did you hear about us?</h4>
+	<input type="radio" name="rdwebsite">Website
+	<input type="radio" name="rdsocial">Social Media
+	<input type="radio" name="rdnews">News Paper / Magazine
+	<input type="radio" name="rdwebsite">Other
+	</fieldset>
+   </form>
+   <section class="footer1">
 		<div class="container">
 			<div class="row">
 				<div class="col" >

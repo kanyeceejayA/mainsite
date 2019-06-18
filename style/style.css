@@ -1,5 +1,5 @@
 * {
-	font-family: arial, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	box-sizing: border-box;
 	line-height: 1.5;
 	margin: 0 auto;
@@ -31,7 +31,10 @@
 	/*display: inline-block;*/
 	/*justify-content: space-around;*/
 }
-.companies img:hover{
+.container-companies {
+	margin-top: 12px;
+}
+.container-companies img:hover{
 	background-color:#ddd;
 	color: #ddd;
 }
@@ -72,12 +75,12 @@ footer {
 	margin-top: -5px;
 }
 
-footer p, .copyright  {
+footer , .copyright  {
 	color: grey;
 	font-size: 10px;
 }
 
-.copyright, p{
+.copyright{
 	width: 100%;
 	padding: 10px;
 	border: 1px solid #eee;
@@ -93,6 +96,7 @@ footer p, .copyright  {
  	height:60px;
  }
  .footer1{
+ 	margin-top: 12px;
  	padding: 4%;
 	background-color: #32556f;
 	font-size: smaller;
