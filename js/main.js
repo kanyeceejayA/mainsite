@@ -5,7 +5,7 @@ $(function()
     {
         if(data.result == 'success')
         {
-            $('form#reused_form').hide();
+            $('form.ajax').hide();
             $('#success_message').show();
             $('#error_message').hide();
         }
@@ -35,7 +35,7 @@ $(function()
 
         }//else
     }
-    $('#reused_form').submit(function(e){
+    $('form.ajax').submit(function(e){
         e.preventDefault();
 
         $form = $(this);
