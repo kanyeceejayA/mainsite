@@ -116,7 +116,7 @@ footer , .copyright  {
 }
 .footer1 img{
 	width: 100%;
-	filter: brightness(0) invert(1);
+	filter:none;
 }
 
  .footer2{
@@ -128,4 +128,14 @@ footer , .copyright  {
 .footer2 a{
 	height: 20px;
 	margin-left: 2px;
+}
+.submit {
+	border-radius: 5px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	border:none;
+	text-decoration: none;
+	display: inline-block;
 }
