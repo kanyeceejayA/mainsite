@@ -24,6 +24,9 @@
 	text-decoration: none;
 	margin: 10px;
 }
+.heading {
+	text-align: center;
+}
 .companies {
 	/*width: 100%;*/
 	/*margin: 0 auto;*/
@@ -69,6 +72,15 @@
 .navbar-header {
 	color: red;
 }
+.navbar {
+	background-color: brown;
+}
+.nav-link {
+	color: white;
+	float: right;
+	text-align: right;
+}
+
 footer {
 	width: 100%;
 	margin-bottom: 10px;
@@ -98,7 +110,7 @@ footer , .copyright  {
  .footer1{
  	margin-top: 12px;
  	padding: 4%;
-	background-color: #32556f;
+	background-color: brown;
 	font-size: smaller;
 	text-align: left;
 	font-family: sans-serif;
@@ -138,4 +150,8 @@ footer , .copyright  {
 	border:none;
 	text-decoration: none;
 	display: inline-block;
+}
+.aboutcbs, .framework {
+	text-align: center;
+	text-transform: uppercase;
 }

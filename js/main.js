@@ -48,7 +48,7 @@ $(function()
             $btn.text('Sending ...');
         });
 
-$('form.ajax').on('submit',function() {
+  $('form.ajax').on('submit',function() {
   var that = $(this),
   url = that.attr('action'),
   type = that.attr('method'),
@@ -60,16 +60,17 @@ $('form.ajax').on('submit',function() {
          value = that.val();
         data[name] = value;
 
-  });
-  $.ajax({
+   });
+   $.ajax({
      url: url,
      type: type,
      data: data,
      success: function(after_form_submitted){
      	console.log(after_form_submitted);
      }
-  });
+   });
 
-  return false;
+   return false;
 	
+  });
 });

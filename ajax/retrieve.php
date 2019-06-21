@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
-	$how = $_POST['how']
+	$how = $_POST['how'];
 
 	$mailto = "tech@cbs-group.co.ke";
 	$headers = "From: ".$email;
