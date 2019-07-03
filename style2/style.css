@@ -1,0 +1,113 @@
+* {
+	font-family: "Times New Roman", Times, serif;
+	box-sizing: border-box;
+	line-height: 1.5;
+	margin: 0 auto;
+    max-width: 100%;
+    font-size: large !important;
+}
+.logo-head {
+	width: 100%;
+	padding-bottom: 25px;
+}
+.logo {
+	margin: auto;
+	width:50%;
+	padding: 10px;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu a {
+	text-decoration: none;
+	margin: 10px;
+}
+.heading {
+	text-align: center;
+}
+.nav-link {
+	color: white;
+	float: right;
+	text-align: right;
+}
+
+footer {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+
+footer , .copyright  {
+	color: grey;
+	font-size: 10px;
+}
+
+.copyright{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+.logofooter {
+	width: 20%;
+	margin: auto;
+}
+
+ /*Akbr Below here*/
+ .navbar-brand img{
+ 	height:60px;
+ }
+ .footer1{
+ 	margin-top: 12px;
+ 	padding: 4%;
+	font-size: smaller;
+	text-align: left;
+	font-family: sans-serif;
+	line-height: 2em;
+
+}
+
+.footer1 ul{
+	list-style: none;
+	text-align: left;
+}
+.footer1 a, .footer1 li{
+	text-decoration: none;
+	color: #b7babb;
+}
+.footer1 img{
+	width: 100%;
+	filter:none;
+}
+
+ .footer2{
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-family: sans-serif;
+	font-size: x-small;
+}
+.footer2 a{
+	height: 20px;
+	margin-left: 2px;
+}
+.column {
+	width: 100%;
+	padding: 5px;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.images {
+	background-color: seashell !important;
+}
+.images img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
+}

@@ -4,6 +4,7 @@
 	line-height: 1.5;
 	margin: 0 auto;
     max-width: 100%;
+    font-size: large !important;
 }
 .logo-head {
 	width: 100%;
@@ -27,6 +28,10 @@
 .heading {
 	text-align: center;
 }
+/*.description {
+	background-color: seashell;
+	margin-top: auto;
+}*/
 .companies {
 	/*width: 100%;*/
 	/*margin: 0 auto;*/
@@ -68,13 +73,6 @@
   clear: both;
   display: table;
 }
-
-.navbar-header {
-	color: red;
-}
-.navbar {
-	background-color: brown;
-}
 .nav-link {
 	color: white;
 	float: right;
@@ -110,7 +108,6 @@ footer , .copyright  {
  .footer1{
  	margin-top: 12px;
  	padding: 4%;
-	background-color: brown;
 	font-size: smaller;
 	text-align: left;
 	font-family: sans-serif;
@@ -154,4 +151,7 @@ footer , .copyright  {
 .aboutcbs, .framework {
 	text-align: center;
 	text-transform: uppercase;
+}
+.aboutus {
+	text-align: center;
 }
