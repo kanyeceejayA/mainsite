@@ -104,6 +104,7 @@ footer , .copyright  {
 }
 .images {
 	background-color: seashell !important;
+	width: 100% !important;
 }
 .images img {
 	margin-left: auto;
